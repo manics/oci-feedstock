@@ -1,5 +1,5 @@
 {% set name = "oci" %}
-{% set version = "2.88.1" %}
+{% set version = "2.88.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/oci-{{ version }}.tar.gz
-  sha256: 9d032daa0f3fdb12fba24a8cd9aabfd8476e3448c844ba2c40e13b897dc33a94
+  sha256: 71c4ed8ace6e041ae05234a57f144fb156f004c32e32a08cd28ab15fb7906c2d
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.6
     - certifi
-    - cryptography >=3.2.1,<=37.0.2
+    - cryptography >=3.2.1,<=39.0.0
     - pyopenssl >=17.5.0,<=22.0.0
     - python-dateutil >=2.5.3,<3.0.0
     - pytz >=2016.10
