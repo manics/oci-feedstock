@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.6
     - certifi
-    - cryptography >=3.2.1,<=37.0.2
+    - cryptography >=3.2.1,<=39.0.0
     - pyopenssl >=17.5.0,<=22.0.0
     - python-dateutil >=2.5.3,<3.0.0
     - pytz >=2016.10
